@@ -11,25 +11,20 @@ My first neural network and understanding data distribution.
 **Project Goals**
 
 The goals / steps of this project are the following:
-* Use the simulator to collect data of good driving behavior
-* Build, a convolution neural network in Keras that predicts steering angles from images
+* Predict daily bike rental ridership
+* Build your first neural network
 * Train and validate the model with a training and validation set
-* Test that the model successfully drives around track one without leaving the road
+* Test that the model
 * Summarize the results with a written report
 
 **Project Files**
 
 The repository consists of the following files: 
-* model.py (script used to create and train the model)
-* drive.py (script to drive the car)
-* settings.py (script containing settings to run model.py)
-* model.h5 (a trained Keras model with only center camera)
-* model_all_camera.h5 (a trained Keras model with selective data and center, left and right camera)
-* model_all_camera_all_data.h5 (a trained Keras model with all data and all camera angles)
-* a README writeup file (either markdown or pdf)
-* run1.mp4 and run2.mp4 (a video recording of your vehicle driving autonomously around the track for at least one full lap)
+* Your_first_neural_network.ipynb (Main python notebook to create and train the model)
+* Your_first_neural_network.html (HTML version of main notebook)
+* day.csv (Dataset file)
+* hour.csv (Dataset file)
 
-This README file describes how to output the video in the "Details About Files In This Directory" section.
 
 [//]: # (Image References)
 
@@ -48,6 +43,9 @@ The project requires the libraries desicribed in the environment.yml file. The e
 
 ## Dataset
 
-The dataset was created by me performing laps around the test track in the simluated environment. The simulator had two tracks avialbale to collect data. The data collection was divided as follows:
-- Track1: Clockwise 4 laps
-- Track1: Counterclockwise 2 laps
+The data comes from the UCI Machine Learning Database. Bike sharing systems are new generation of traditional bike rentals where whole process from membership, rental and return back has become automatic. Through these systems, user is able to easily rent a bike from a particular position and return back at another position. 
+
+- day.csv
+- hour.csv
+
+data_path = 'Bike-Sharing-Dataset/hour.csv'
