@@ -20,8 +20,8 @@ The goals / steps of this project are the following:
 **Project Files**
 
 The repository consists of the following files: 
-* Your_first_neural_network.ipynb (Main python notebook to create and train the model)
-* Your_first_neural_network.html (HTML version of main notebook)
+* Predicting_bike_sharing_data.ipynb (Main python notebook to create and train the model)
+* Predicting_bike_sharing_data.pdf (HTML version of main notebook)
 * day.csv (Dataset file)
 * hour.csv (Dataset file)
 
