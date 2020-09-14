@@ -140,7 +140,7 @@ class NeuralNetwork(object):
 #########################################################
 # Set your hyperparameters here
 ##########################################################
-iterations = 2500
-learning_rate = 0.01
-hidden_nodes = 40
-output_nodes = 60
+iterations = 5000
+learning_rate = 0.5
+hidden_nodes = 25
+output_nodes = 1
