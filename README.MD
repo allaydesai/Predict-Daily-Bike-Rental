@@ -28,11 +28,10 @@ The repository consists of the following files:
 
 [//]: # (Image References)
 
-[image1]: ./Images/center_normal_0.jpg "Center Normal Road Image"
-[image2]: ./Images/center_right_0_146.jpg "Right Turn Image"
-[image3]: ./Images/center_left-0_217.jpg "Left Turn Image"
-[image4]: ./Images/center_bridge_0.jpg "Bridge Road Image"
-[image5]: ./Images/Loss_plot.png "Loss Plot Image"
+[image1]: ./assets/data.png "Explore Data"
+[image2]: ./assets/learning.png "Learning"
+[image3]: ./assets/neural_network.png "Model"
+[image4]: ./assets/results.png "Results"
 
 
 **Dependencies**
@@ -49,3 +48,24 @@ The data comes from the UCI Machine Learning Database. Bike sharing systems are 
 - hour.csv
 
 data_path = 'Bike-Sharing-Dataset/hour.csv'
+
+![image1]
+
+## Model Selection
+
+![image3]
+
+| Parameter | Value |
+| --- | ----------- |
+| iterations | 5000 |
+| learning_rate | 0.5 |
+| hidden_nodes | 25 |
+| output_nodes | 1 |
+
+## Training
+
+![image2]
+
+## Results
+
+![image4]
