@@ -66,6 +66,13 @@ data_path = 'Bike-Sharing-Dataset/hour.csv'
 
 ![image2]
 
+Training loss: 0.062
+Validation loss: 0.150
+
 ## Results
 
 ![image4]
+
+## Conclusion
+
+The model seems to have trained well but it does overestimate towards the end of December this may be due to holidays which isnt accounted for. 
